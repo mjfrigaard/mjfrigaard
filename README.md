@@ -5,17 +5,7 @@ updated: 2023-06-16
 
 ### Hi there 👋
 
-         👋 Hi, my name is Martin.
-
-         👀 I like #rstats and data visualization.
-
-         🌱 I'm learning about shiny app development, JavaScript, and Bayes stat.
-
-         📦 I'm currently working on R package development tools.
-
-         💞 I'd love to collaborate on #rstats packages for data science.
-
-         📫 Want to connect? Use the badges below...
+<img src="intro.gif" style="width:100.0%" />
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mjfrigaard&theme=github_dark)
 

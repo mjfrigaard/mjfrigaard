@@ -16,9 +16,9 @@ source("who_am_i.R")
 
 ### Hi there 👋
 
-```{r}
-who_am_i(name = "Martin")
-```
+![](intro.gif){width=100%}
+
+
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mjfrigaard&theme=github_dark)
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mjfrigaard&theme=github_dark)
@@ -26,6 +26,8 @@ who_am_i(name = "Martin")
 
 [![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mjfrigaard)
 [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mjfrigaard/)
+
+
 
 <!--
 **mjfrigaard/mjfrigaard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
