@@ -1,22 +1,24 @@
-README
-================
-Martin Frigaard
-updated: 2023-06-16
+---
+title: "README"
+author: "Martin Frigaard"
+date: "updated: `r Sys.Date()`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  comment = "\t",
+  fig.path = "",
+  out.width = "100%")
+source("who_am_i.R")
+```
 
 ### Hi there 👋
 
-         👋 Hi, my name is Martin.
-
-         👀 I like #rstats and data visualization.
-
-         🌱 I'm learning about shiny app development, JavaScript, and Bayes stat.
-
-         📦 I'm currently working on R package development tools.
-
-         💞 I'd love to collaborate on #rstats packages for data science.
-
-         📫 Want to connect? Use the badges below...
-
+```{r}
+who_am_i(name = "Martin")
+```
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mjfrigaard&theme=github_dark)
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mjfrigaard&theme=github_dark)
@@ -27,8 +29,10 @@ updated: 2023-06-16
 
 <!--
 **mjfrigaard/mjfrigaard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-&#10;Here are some ideas to get you started:
-&#10;- 🔭 I’m currently working on ...
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
