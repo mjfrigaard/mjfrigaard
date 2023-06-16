@@ -1,5 +1,5 @@
 ---
-title: "README"
+title: "Hi there 👋"
 author: "Martin Frigaard"
 date: "updated: `r Sys.Date()`"
 output: github_document
@@ -13,8 +13,6 @@ knitr::opts_chunk$set(
   out.width = "100%")
 source("who_am_i.R")
 ```
-
-### Hi there 👋
 
 ![](intro.gif){width=100%}
 

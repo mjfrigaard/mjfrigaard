@@ -1,9 +1,7 @@
-README
+Hi there 👋
 ================
 Martin Frigaard
 updated: 2023-06-16
-
-### Hi there 👋
 
 <img src="intro.gif" style="width:100.0%" />
 
