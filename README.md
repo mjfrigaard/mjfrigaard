@@ -1,27 +1,48 @@
 Hi there 👋
 ================
 Martin Frigaard
-updated: 2023-06-16
+updated: 2026-05-07
 
-<img src="intro.gif" style="width:100.0%" />
+This `README.md` is updated using the [`ghreadme`
+package](https://mjfrigaard.github.io/ghreadme/index.html).
+
+``` r
+library(ghreadme)
+```
+
+Generate badge markdown for the `README.md` body:
+
+``` r
+gh_badges(
+  username = "mjfrigaard",
+  badge    = c("details", "commit_lang", "stats"),
+  theme    = "dark"
+)
+```
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mjfrigaard&theme=github_dark)
-
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mjfrigaard&theme=github_dark)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mjfrigaard&theme=github_dark)
 
-[![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mjfrigaard)
-[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mjfrigaard/)
+## What I’m working on
 
-<!--
-**mjfrigaard/mjfrigaard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-&#10;Here are some ideas to get you started:
-&#10;- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<figure>
+<img src="cumulative.gif" style="width:100.0%"
+alt="Cumulative commits, sliding the end date" />
+<figcaption aria-hidden="true">Cumulative commits, sliding the end
+date</figcaption>
+</figure>
+
+<figure>
+<img src="calendar.gif" style="width:100.0%"
+alt="Calendar heatmap, year by year" />
+<figcaption aria-hidden="true">Calendar heatmap, year by
+year</figcaption>
+</figure>
+
+<figure>
+<img src="punchcard.gif" style="width:100.0%"
+alt="Punchcard carousel across repos" />
+<figcaption aria-hidden="true">Punchcard carousel across
+repos</figcaption>
+</figure>
