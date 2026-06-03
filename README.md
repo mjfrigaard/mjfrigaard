@@ -1,48 +1,29 @@
 Hi there 👋
 ================
-Martin Frigaard
-updated: 2026-05-07
 
-This `README.md` is updated using the [`ghreadme`
-package](https://mjfrigaard.github.io/ghreadme/index.html).
+<!-- README.md is generated from README.Rmd. Please edit that file. -->
 
-``` r
-library(ghreadme)
-```
+<img src="who_am_i.gif" style="width:100.0%" />
 
-Generate badge markdown for the `README.md` body:
-
-``` r
-gh_badges(
-  username = "mjfrigaard",
-  badge    = c("details", "commit_lang", "stats"),
-  theme    = "dark"
-)
-```
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mjfrigaard&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mjfrigaard&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mjfrigaard&theme=github_dark)
-
-## What I’m working on
+## GitHub activity
 
 <figure>
 <img src="cumulative.gif" style="width:100.0%"
-alt="Cumulative commits, sliding the end date" />
-<figcaption aria-hidden="true">Cumulative commits, sliding the end
-date</figcaption>
+alt="Cumulative Line Plot" />
+<figcaption aria-hidden="true">Cumulative Line Plot</figcaption>
 </figure>
 
 <figure>
 <img src="calendar.gif" style="width:100.0%"
-alt="Calendar heatmap, year by year" />
-<figcaption aria-hidden="true">Calendar heatmap, year by
-year</figcaption>
+alt="Calendar Heatmap Plot" />
+<figcaption aria-hidden="true">Calendar Heatmap Plot</figcaption>
 </figure>
 
 <figure>
-<img src="punchcard.gif" style="width:100.0%"
-alt="Punchcard carousel across repos" />
-<figcaption aria-hidden="true">Punchcard carousel across
-repos</figcaption>
+<img src="punchcard.gif" style="width:100.0%" alt="Punch Card Plot" />
+<figcaption aria-hidden="true">Punch Card Plot</figcaption>
 </figure>
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mjfrigaard&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mjfrigaard&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mjfrigaard&theme=github_dark)

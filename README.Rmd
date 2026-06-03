@@ -1,47 +1,54 @@
 ---
 title: "Hi there 👋"
-author: "Martin Frigaard"
-date: "updated: `r Sys.Date()`"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
+<!-- README.md is generated from README.Rmd. Please edit that file. -->
+
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(
-  echo = TRUE,
-  comment = "\t",
-  fig.path = "",
-  out.width = "100%")
-```
-
-This `README.md` is updated using the [`ghreadme` package](https://mjfrigaard.github.io/ghreadme/index.html). 
-
-```{r}
+  echo      = FALSE,
+  message   = FALSE,
+  warning   = FALSE,
+  out.width = "100%"
+)
 library(ghreadme)
+# read in data 
+stats <- readRDS("2026-06-03-stats.rds")
 ```
 
-Generate badge markdown for the `README.md` body:
+```{r who_am_i, eval = FALSE, echo = FALSE}
+who_am_i(
+  name   = "Martin",
+  likes  = "#rstats and data visualization.",
+  learn  = "Shiny for Python app development and Linux administration",
+  work   = "Shiny app-package development tools.",
+  collab = "#rstats and #pystats packages for data science."
+)
+```
 
-```{r gh_badges, results='asis', echo=TRUE}
+![](who_am_i.gif){width='100%'}
+
+## GitHub activity
+
+![Cumulative Line Plot](cumulative.gif){width='100%'}
+
+![Calendar Heatmap Plot](calendar.gif){width='100%'}
+
+![Punch Card Plot](punchcard.gif){width='100%'}
+
+```{r gh_badges, results = "asis"}
 gh_badges(
   username = "mjfrigaard",
-  badge    = c("details", "commit_lang", "stats"),
+  badge    = c("details", "stats", "repo_lang"),
   theme    = "dark"
 )
 ```
 
 
-```{r who_am_i, echo=FALSE, eval=FALSE}
-source("who_am_i.R")
+```{r so_rep, eval = FALSE, results = "asis"}
+so_rep(
+  username = "your-so-username",
+  user_id  = "00000"
+)
 ```
-
-
-## What I'm working on
-
-![Cumulative commits, sliding the end date](cumulative.gif){width=100%}
-
-
-![Calendar heatmap, year by year](calendar.gif){width=100%}
-
-![Punchcard carousel across repos](punchcard.gif){width=100%}
-
-
