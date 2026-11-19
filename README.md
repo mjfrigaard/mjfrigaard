@@ -8,9 +8,7 @@
 
 ![Cumulative commits](cumulative.gif)
 
-![Calendar heatmap](calendar.gif)
-
-![Punchcard](punchcard.gif)
+[![Commit spiral (click for the interactive version)](spiral.png)](https://mjfrigaard.github.io/hubbub/user-guide/walkthrough.html#interactive-spiral)
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mjfrigaard&theme=github_dark)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mjfrigaard&theme=github_dark)

@@ -67,6 +67,11 @@ for i, repo in enumerate(top_repos, start=1):
 hb.make_gif(frames, "punchcard.gif", 1000, 500,
             first_duration=1, frame_duration=1.5, last_duration=4)
 
+# spiral (static copy of the interactive chart in the hubbub walkthrough) ----
+fig = hb.spiral_horizon_plot(commits, date_begin="2020-01-01")
+fig.savefig("spiral.png", dpi=96, bbox_inches="tight", facecolor="white")
+plt.close(fig)
+
 # introduction ----
 hb.who_am_i_gif(
     name="Martin",
@@ -76,4 +81,4 @@ hb.who_am_i_gif(
     collab="#rstats and #pystats packages for data science.",
     output="who_am_i.gif",
 )
-print("Wrote cumulative.gif, calendar.gif, punchcard.gif, who_am_i.gif")
+print("Wrote cumulative.gif, calendar.gif, punchcard.gif, spiral.png, who_am_i.gif")
